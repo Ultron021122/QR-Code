@@ -7,12 +7,12 @@ html {
 }
 body {
     font-family: $fuente_principal;
-    font-size: 1.6rem;
+    font-size: $font_size;
     line-height: 1.8;
+    background-color: $light_gray;
 }
 p {
-    color: $negro;
-    font-size: 2rem;
+    color: $grayish_blue;
 }
 .container {
     width: 95%;
@@ -35,7 +35,6 @@ h1, h2, h3 {
     margin: calc($separacion / 2) 0;
     font-weight: 300;
     text-align: center;
-    
 }
 
 h1 {
